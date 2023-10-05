@@ -1,0 +1,108 @@
+html {
+        font-size: 10px;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #ffffff;
+    margin:0;
+    padding:0;
+  }
+
+  .header{
+    background-color: rgb(0, 0, 0);
+    height:100px;
+    margin: 0;
+    padding:0;
+    border-bottom:#ffbb00 double 3px;
+    border-top:#ffbb00 double 3px ;
+    color:white;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin: 3px;
+    font-size: 3.5rem;
+    }
+  
+  h2 {
+    font-size: 3.25rem;
+  }
+  
+  a{
+    color: #ffffff;
+  }
+  a:hover{
+    color:#ffbb00;
+  }
+  a:active{
+    color:red;
+  }
+  
+  
+  
+  .main {
+    margin:30px 8px;
+    padding-top: 1px;
+    background: #000000;
+    padding-bottom:0px;
+    margin: 0;
+    
+    
+    }
+  
+  
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 5px rgba(0, 0, 0, 0.19);
+  }
+  
+  .img-div {
+    background:radial-gradient(circle,white,rgb(81, 81, 81));
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #img-caption {
+    margin: 15px 0 5px 0;
+    font-size: 1.4rem;
+    }
+  .info{
+    border-top: #ffbb00 solid 4px;
+    background-image:url("https://marketplace.canva.com/OOWzI/MAEX42OOWzI/1/s2/canva-black-cement-wall-studio-background-MAEX42OOWzI.jpg") ;
+    background-image:cover;
+    background-image:no-repeat;
+    padding-bottom: 20px;
+  }
+  
+  
+
+    
+  blockquote {
+    font-size:18px;
+    font-style: italic;
+    max-width: 545px;
+    margin: 70px auto 50px auto;
+    text-align: left;
+    text-shadow: 0 0 3px #00d9ff, 0 0 5px #ffffff;
+  }
+
+  p[id="info"]{
+    font-size:20px;
+    max-width: 845px;
+    margin: 0 auto 70px auto;
+    text-align: left;
+    text-shadow: 0 0 3px #ea00ff, 0 0 5px #ffffff;
+  }
+  
+  p[id="header"]{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+ 
